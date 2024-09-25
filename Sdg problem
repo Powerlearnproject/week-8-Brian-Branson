@@ -1,0 +1,13 @@
+SDG 2: Zero Hunger
+Problem:
+Food Insecurity in Underserved Communities
+
+Food insecurity refers to the lack of access to sufficient, safe, and nutritious food to meet dietary needs.
+Many underserved communities face difficulties in obtaining food due to economic and social factors.
+Proposed Solution:
+We aim to design a database system to improve the distribution of food donations in underserved regions, ensuring that food reaches those in need in a more organized, accountable, and efficient manner. The system will track donors, food distribution centers, and recipients, providing transparency and improving decision-making regarding where to allocate resources.
+
+Objectives:
+Track and manage food donations from various sources (donors).
+Record the distribution of food to communities through centers.
+Analyze and report on the effectiveness of the distribution process

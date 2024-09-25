@@ -1,0 +1,19 @@
+
+INSERT INTO Donors (Donor_ID, Donor_Name, Donation_Amount, Donation_Type, Contact_Info)
+VALUES (1, 'John Doe', 5000, 'Monetary', 'john@example.com'),
+       (2, 'FoodCorp Inc.', 10000, 'Food', 'contact@foodcorp.com');
+
+
+INSERT INTO Food_Distribution_Centers (Center_ID, Center_Name, Location, Capacity)
+VALUES (1, 'North Center', 'North Region', 500),
+       (2, 'South Center', 'South Region', 1000);
+
+
+INSERT INTO Recipients (Recipient_ID, Recipient_Name, Household_Size, Location, Contact_Info)
+VALUES (1, 'Family A', 5, 'North Region', 'familyA@example.com'),
+       (2, 'Family B', 4, 'South Region', 'familyB@example.com');
+
+
+INSERT INTO Distributions (Distribution_ID, Donor_ID, Center_ID, Recipient_ID, Food_Quantity, Distribution_Date)
+VALUES (1, 1, 1, 1, 100, '2024-09-01'),
+       (2, 2, 2, 2, 200, '2024-09-02');
